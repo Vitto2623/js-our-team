@@ -54,3 +54,18 @@ console.log(team[2]['image']);
 console.log(team[3]['image']);
 console.log(team[4]['image']);
 console.log(team[5]['image']);
+
+//MILESTONE 2: stampare le stesse informazioni su DOM sottoforma di stringhe
+document.getElementById("name-1").innerHTML = team[0]['name'];
+document.getElementById("name-2").innerHTML = team[1]['name'];
+document.getElementById("name-3").innerHTML = team[2]['name'];
+document.getElementById("name-4").innerHTML = team[3]['name'];
+document.getElementById("name-5").innerHTML = team[4]['name'];
+document.getElementById("name-6").innerHTML = team[5]['name'];
+//
+document.getElementById("role-1").innerHTML = team[0]['role'];
+document.getElementById("role-2").innerHTML = team[1]['role'];
+document.getElementById("role-3").innerHTML = team[2]['role'];
+document.getElementById("role-4").innerHTML = team[3]['role'];
+document.getElementById("role-5").innerHTML = team[4]['role'];
+document.getElementById("role-6").innerHTML = team[5]['role'];
