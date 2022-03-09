@@ -3,12 +3,26 @@ body{
 }
 
 /*MAIN*/
-main h5{
+main p{
     font-size: 1em;
     line-height: 30px;
     color: gray;
 }
 
-main img{
+/*TEAM*/
+#team img{
     width: 65%;
+}
+
+#team .dettagli-personale{
+    width: 270.4px;
+    height: 80px;
+    padding: 13px;
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+
+.dettagli-personale h6{
+    color: grey;
 }
