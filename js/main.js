@@ -31,22 +31,16 @@ const team = [
     },
 ];
 
-//MILESTONE 1: stampare su console le informazioni di nome, ruolo e la stringa della foto
+
 for ( i = 0; i < team.length; i++){
     console.log(team[i]);
+    document.getElementById('output').innerHTML += `   
+    <div class="row">
+        <div class="card my-card text-center py-3 px-3">
+            <img src="img/${team[i].image}" alt="${team[i].name}">
+            <h5 class="fs-5 mb-1 mt-3">${team[i].name}</h5> 
+            <h6>${team[i].role}</h6>
+        </div>
+    </div>`  
 }
 
-//MILESTONE 2: stampare le stesse informazioni su DOM sottoforma di stringhe
-document.getElementById("name-1").innerHTML = team[0]['name'];
-document.getElementById("name-2").innerHTML = team[1]['name'];
-document.getElementById("name-3").innerHTML = team[2]['name'];
-document.getElementById("name-4").innerHTML = team[3]['name'];
-document.getElementById("name-5").innerHTML = team[4]['name'];
-document.getElementById("name-6").innerHTML = team[5]['name'];
-//
-document.getElementById("role-1").innerHTML = team[0]['role'];
-document.getElementById("role-2").innerHTML = team[1]['role'];
-document.getElementById("role-3").innerHTML = team[2]['role'];
-document.getElementById("role-4").innerHTML = team[3]['role'];
-document.getElementById("role-5").innerHTML = team[4]['role'];
-document.getElementById("role-6").innerHTML = team[5]['role'];

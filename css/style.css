@@ -6,23 +6,17 @@ body{
 main p{
     font-size: 1em;
     line-height: 30px;
-    color: gray;
+    color: grey;
 }
 
 /*TEAM*/
-#team img{
-    width: 65%;
-}
-
-#team .dettagli-personale{
-    width: 270.4px;
-    height: 80px;
-    padding: 13px;
-    background-color: white;
-    border-radius: 3px;
-    margin-bottom: 50px;
-}
-
-.dettagli-personale h6{
+h6{
     color: grey;
+}
+
+#output{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: calc(100% / 2);
 }
