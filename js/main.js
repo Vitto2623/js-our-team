@@ -32,28 +32,9 @@ const team = [
 ];
 
 //MILESTONE 1: stampare su console le informazioni di nome, ruolo e la stringa della foto
-console.log(team);
-//
-console.log(team[0]['name']);
-console.log(team[1]['name']);
-console.log(team[2]['name']);
-console.log(team[3]['name']);
-console.log(team[4]['name']);
-console.log(team[5]['name']);
-//
-console.log(team[0]['role']);
-console.log(team[1]['role']);
-console.log(team[2]['role']);
-console.log(team[3]['role']);
-console.log(team[4]['role']);
-console.log(team[5]['role']);
-//
-console.log(team[0]['image']);
-console.log(team[1]['image']);
-console.log(team[2]['image']);
-console.log(team[3]['image']);
-console.log(team[4]['image']);
-console.log(team[5]['image']);
+for ( i = 0; i < team.length; i++){
+    console.log(team[i]);
+}
 
 //MILESTONE 2: stampare le stesse informazioni su DOM sottoforma di stringhe
 document.getElementById("name-1").innerHTML = team[0]['name'];
